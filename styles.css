@@ -1,22 +1,29 @@
-.navbar{
 
-}
 
 nav {
     background: #fff;
     border-radius: 9px;
     padding: 30px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
   }
   nav ul li {
     display: inline-block;
     list-style: none;
     font-size: 20px;
     padding: 0 10px;
-    margin: 0 20px;
+    margin:  0px;
     cursor: pointer;
     position: relative;
+    text-decoration: none;
+    color:black;
   }
+a :hover {
+    background-color: #B39DDB;
+    
+}
+
+  
   #main .carousel-inner img {
     max-height: 70vh;
     object-fit: cover;
@@ -54,3 +61,16 @@ nav {
     max-width: 100%;
     
   }
+  .Logo{
+    width: 80px;
+    height: auto;
+  }
+
+
+
+
+  .buttom-navbar{
+    border: 1px solid black;
+}
+
+ 
