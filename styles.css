@@ -1,5 +1,11 @@
-
-
+/* 
+.body-date{
+  width: 100%;
+background-color: #e5eaea;
+text-align: center;
+margin: 0%;
+padding: 0%;
+} */
 nav {
     background: #fff;
     border-radius: 9px;
@@ -20,12 +26,13 @@ nav {
   }
 a :hover {
     background-color: #B39DDB;
+ 
     
 }
 
   
   #main .carousel-inner img {
-    max-height: 70vh;
+    max-height: 50vh;
     object-fit: cover;
     filter: grayscale(20%);
   }
@@ -73,4 +80,42 @@ a :hover {
     border: 1px solid black;
 }
 
- 
+.Title-form{
+text-align:center;
+color:black;
+font-size:2rem;
+margin:0px;
+padding: 10px;
+ }
+
+ .form{
+flex-direction: column;
+width: 100%;
+justify-content: center;
+display: flex;
+align-items: center;
+justify-content: center;
+margin:40px;
+
+
+ }
+.form-input{
+width: 450px;
+text-align: center;
+margin: 3px;
+}
+
+.button-send{
+ background-color:#6e5570;
+ border:0px;
+ border-radius:4px;color:#ffffff;
+ display:inline-block;
+ font-family:sans-serif;
+ font-size:13px;
+ font-weight:bold;
+ line-height:40px;
+ text-align:center;
+ text-decoration:none;
+ width:200px;
+ margin-top: 20px;
+}
